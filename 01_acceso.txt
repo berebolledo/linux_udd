@@ -1,0 +1,17 @@
+############################
+Boris Rebolledo Jaramillo
+brebolledo@udd.cl
+############################
+
+1. Acceder a sofia (nodo de administración del clúer) desde conexión institucional UDD.
+
+ssh boris@200.54.225.58 -p 2000
+
+2. Acceder a sofia desde conexión extera requiere dos pasos:
+
+  a. Acceder a jano
+  ssh boris@200.54.225.60
+	
+  b. Acceder a sofia
+  ssh boris@192.168.20.2 -p 8282
+
